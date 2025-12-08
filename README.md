@@ -1,3 +1,5 @@
+# Chrome起動時に、chrome://settings/help ページを追加で開くことで 更新チェックを行わせる拡張
+
 # Chrome への読み込みと動作確認手順
 
 1 Chrome で chrome://extensions/ を開く。
