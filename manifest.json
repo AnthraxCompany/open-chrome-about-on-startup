@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Open Chrome Help on Startup",
+  "version": "1.0.0",
+  "description": "Chrome 起動時に chrome://settings/help を新しいタブで自動的に開きます。",
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
