@@ -1,9 +1,17 @@
-// Chrome プロファイル起動時に呼ばれる
+// Chrome プロファイル起動時に About Chrome を開く
 chrome.runtime.onStartup.addListener(() => {
-  // About Chrome (chrome://settings/help) を新しいタブで開く
+  openChromeHelp();
+});
+
+// 拡張アイコンをクリックしたときにも About Chrome を開く
+chrome.action.onClicked.addListener(() => {
+  openChromeHelp();
+});
+
+// 共通処理: chrome://settings/help を新しいタブで開く
+function openChromeHelp() {
   chrome.tabs.create({
     url: 'chrome://settings/help',
     active: true
   });
-});
-
+}
