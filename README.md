@@ -1,6 +1,7 @@
 # Chrome起動時に、chrome://settings/help ページを追加で開くことで 更新チェックを行わせる拡張
 
 # Chrome への読み込みと動作確認手順
+0 https://github.com/AnthraxCompany/open-chrome-about-on-startup/archive/refs/heads/main.zip をダウンロードして展開しておく
 
 1 Chrome で chrome://extensions/ を開く。
 
